@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul,ol{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.align-center{
+    align-items: center;
+}
+.heading h3{
+    font-weight: 700;
+    font-size: 16px;
+    color: #F8991C;
+   
+    
+}
+:root{
+    --primary-color: #F8991C;
+}
+.heading h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #000000;
+}
+.btn{
+    padding: 12px 41px;
+    background-color: #F8991C;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    display: inline;
+
+
+
+}
+/* nav starts*/
+nav .logo{
+    width: 40%;
+
+}
+nav .menu{
+    width: 60%;
+    
+}
+nav .menu ul{
+    text-align: right;
+}
+nav .menu ul li a{
+    display: inline-block;
+    padding: 50px 30px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+   
+}
+/* nav ends*/
+/* banner starts*/
+
+#banner{
+    height: 650px;
+    background-color: #F8F8F8;
+}
+#banner .banner-cnt{
+    width: 60%;
+    
+}
+#banner .banner-img{
+    width: 40%;
+}
+#banner .banner-cnt h4{
+    font-weight: 400;
+    font-size: 28px;
+    color: #000000;
+
+} 
+#banner .banner-cnt h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #000000; 
+}
+#banner .banner-cnt p{
+   
+    font-weight: 400;
+    font-size: 28px;
+    margin-bottom: 30px;
+
+    color: #000000;
+
+}
+#banner .banner-cnt .sociallinks{
+    margin-top: 170px;
+    position: relative;
+    width: 280px;
+    
+}
+#banner .banner-cnt .sociallinks p{
+    font-size: 16px;
+    font-weight: 400;
+}
+#banner .banner-cnt .sociallinks .overlaysociallinks{
+    position: absolute;
+    top: -20px;
+    right: 36px;
+}
+/* banner ends*/
+
+/* about starts*/
+#about{
+    margin-top: 75px;
+}
+#about .about-img{
+    width: 40%;
+    
+}
+#about .about-img img{
+    width: 100%;
+}
+#about .about-cnt{
+    width: 60%;
+    padding-left: 43px;
+
+}
+#about .about-cnt P{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: justify;
+    color: #000000;
+    margin: 45px 0;
+}
+#about .about-cnt a{
+    margin-right: 60px;
+    
+}
+#about .about-cnt a:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid #F8991C;
+}
+#about .about-cnt .icons{
+    margin-top: 53PX;
+    margin-bottom: 106px;
+}
+#about .about-cnt .icons a{
+    display: inline;
+    padding-bottom: 20px;
+}
+
+
+/* about ends*/
+/*speciality starts*/
+#speciality{
+    background-color: #F8F8F8;
+    padding: 48px;
+    
+    
+}
+#speciality .speciality-items{
+    width: 33.33%;
+    text-align: center;
+    padding: 40px 20px;
+   
+}
+#speciality .speciality-items img{
+    width: 100%;
+    max-width: 200px;
+    min-width: 100px;
+}
+
+#speciality .speciality-items h3{
+    font-weight: 600;
+    font-size: 28px;
+    color: var(--primary-color);
+}
+#speciality .speciality-items p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-top: 25px;
+    text-align: center;
+}
+/*speciality ends*/
+/*resume starts*/
+#resume{
+    margin: 100px 0;
+    background-color: #FFFFFF;
+}
+#resume .heading{
+    padding-top: 50px;
+}
+#resume .resume-cards{
+    width: 33.33%;
+    padding: 0 15px;
+   
+    
+    
+    text-align: center;
+    
+    margin: 70px 0;
+ 
+ 
+}
+#resume .resume-cards .resume-cnt{
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+ 
+    padding: 40px 21px;
+    border-radius: 8px;
+  
+}
+
+
+
+#resume .resume-cards h4{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 22px;
+}
+#resume .resume-cards h5{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    padding: 15px 0;
+}
+#resume .resume-cards span{
+    color: var(--primary-color);
+}
+
+/*resume ends*/
+/*latest portfolio starts*/
+#portfolio{
+    background-color: #F8F8F8;
+    padding: 50px 0;
+}
+#portfolio .image{
+    width: 25%;
+}
+#portfolio .image img{
+    width: 100%;
+}
+
+
+
+/*latest portfolio ends*/
+/*testimonial starts*/
+#testimonial{
+    padding: 50px 0;
+}
+#testimonial .testimonial-cards{
+
+    max-width: 560px;
+    display: block;
+    background-color: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+    padding: 36px 35px;
+    margin: 0 10px;
+ 
+
+}
+ .testimonial-cards .t-img .image{
+    
+    padding-right: 15px;
+    display: block;
+  
+
+}
+.testimonial-cards .t-img .text h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 38px;
+    color: #000000;
+   
+} 
+.testimonial-cards .t-img .text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+}
+.testimonial-cards .t-text{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px; 
+    color: #000000;
+    padding-top: 20px; 
+
+
+}
+
+/*testimonial ends*/
+/*blog strats*/
+#blog{
+    background: #F8F8F8;
+    padding: 40px 0;
+}
+#blog .blog-card{
+    width: 30.33%;
+    margin-top: 55px;
+    text-align: center;
+    padding: 0 15px;
+   
+   
+}
+#blog .blog-card .blog-cnt{
+    background: #FFFFFF;
+    box-shadow: 0px 50px 100px rgba(0, 0, 0, 0.1);
+   
+    display: block;
+}
+
+.blog-card .blog-cnt .text_area{
+    padding: 20px;
+}
+#blog .blog-card img{
+    width: 100%;
+  
+    
+}
+#blog .blog-card h3{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin: 15px 0;
+}
+#blog .blog-card p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: justify;
+    color: #000000;
+  
+}
+#blog .blog-card a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;  
+    color: #000000;
+    padding-top: 10px;
+   
+    display: block;
+}
+
+/*blog ends*/
+
